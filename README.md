@@ -1,2 +1,2 @@
 # solidity-trustee
-Solidity implementation of a Trustee contract
+Solidity implementation of a Trustee contract.
