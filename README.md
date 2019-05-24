@@ -6,13 +6,13 @@ This article intends to give a concrete example of the benefits of the process o
 inherent advantages related to the use of a blockchain based technology to issue, transfer, exchange and redeem digital assets.
 
 First, I will briefly go over what a digital asset is and how _Asset Tokenization_ related to them. After, I will show how
-easy digital assets can be locked in a smart contract which will behaves like a common law trust structure at a cost close to 
-zero (in comparison to the quite hefty yearly costs of a trust structure in typical juridisctions such as the channel
-islands).
+easy digital assets can be transferred to a smart contract which will behaves like a common law trust structure at a cost close to 
+zero (in comparison to the quite hefty yearly costs a trust structure located in typical juridisctions such as the channel
+islands would fetch).
 
-Finnaly, I will give more examples of how digital assets can be the basic building blocks of more complex smart
-contracts having the power of disrupting a wide range of relationships citizens have with themselves, the state where they
-are living and the businesses they are interacting with.
+Finnaly, I will give additional examples of how digital assets can be the basic building blocks of more complex smart
+contracts having the power to disrupt a wide range of relationships citizens have between themselves, the state they
+are living in or the businesses they are interacting with.
 
 Most of the concepts I will describe here can be generally applied in any modern blockchain (I mean any blockchain supporting
 smart contracts) but when it is necessary to be more specific, I will use the Ethereum (and Ethereum specific standards) blockchain.
@@ -37,13 +37,13 @@ I developped a very simple smart contract that mimicks the basic behavior of a t
 found [here](https://github.com/fhubin/solidity-trustee). 
 
 In a nutshell, anyone owning an identity (just installing an Etherum compatible wallet on your smart phone will create
-one for you) on the Etherum blockchain can create an instance of the _Trustee_ contract. This person (N.B. such contracts can
-also be created programatically) would be considered as the trustor/settlor of the trust. At the creation process, the settlor 
-has to specify who the beneficiary is by setting his/her/its identity in the contract. When the instance of the _Trustee smart
-contract_ is created, it gets an identity on the blockchain too. The condition at which the assets held _in trust_ can
-be transfered to the _beneficiary_ is a simple time-based one. In other word, at the contract creation, the settlor has
-also to specify how long the assets are going to be locked _in trust_. More complex release condition can be programmed
-but I did it that way for the sake of simplicity.
+one for you) on the Etherum blockchain can create an instance of the _Trustee_ contract. This person (N.B. such contracts 
+can also be owned by an identity not linked to a human being) would be considered as the trustor/settlor of the trust. 
+At the creation process, the settlor has to specify who the beneficiary is by setting his/her/its identity in the contract. 
+When the instance of the _Trustee smart contract_ is created, it gets an identity on the blockchain too. The condition at 
+which the assets held _in trust_ by the _Trustee_ can be transfered to the _beneficiary_ is a simple time-based one. In 
+other word, at the contract creation, the settlor has also to specify how long the assets are going to be locked _in trust_. 
+More complex release condition can be programmed but I did it that way for the sake of simplicity.
 
 As soon as the trust structure is created, anyone can transfer assets to it. From then on and as long as the 
 'soon to be transferred' asset accepts that transfer (some asset might require the destinaton to be vetted) and it is 
