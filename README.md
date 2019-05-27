@@ -25,13 +25,21 @@ Bli blou bla...
 
 Bli blou bla...
 
+## My daughters:
+
+I would like to give money to my daughters...
+
+I need to contact a fiduciary company in the channel islands...
+
+The al
+
 ## The trust structure:
 
 According to [Investopedia](https://www.investopedia.com), a [trust](https://www.investopedia.com/terms/t/trust.asp) is
-_(...)a fiduciary relationship in which one party, known as a trustor (or settlor), gives another party, the trustee, 
+_(...) a fiduciary relationship in which one party, known as a trustor (or settlor), gives another party, the trustee, 
 the right to hold title to property or assets for the benefit of a third party, the beneficiary. Trusts are established 
 to provide legal protection for the trustor’s assets, to make sure those assets are distributed according to the wishes
-of the trustor, and to save time, reduce paperwork and, in some cases, avoid or reduce inheritance or estate taxes.(...)_.
+of the trustor, and to save time, reduce paperwork and, in some cases, avoid or reduce inheritance or estate taxes. (...)_.
 
 I developped a very simple smart contract that mimicks the basic behavior of a trust structure. The source code can be
 found [here](https://github.com/fhubin/solidity-trustee). 
