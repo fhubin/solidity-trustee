@@ -47,17 +47,20 @@ contract Trustee {
     }
 
     function transfer () external {
+        require(msg.sender == _beneficiary);
         require(_isConditionFulfilled());
         msg.sender.transfer(address(this).balance);
     }
 
     function transferERC20 (address tokenAddress) external {
+        require(msg.sender == _beneficiary);
         require(_isConditionFulfilled());
         IERC20 token = IERC20(tokenAddress);
         token.transfer(_beneficiary, token.balanceOf(address(this)));
     }
 
     function transferERC721 (address tokenAddress, uint256 tokenId) external {
+        require(msg.sender == _beneficiary);
         require(_isConditionFulfilled());
         IERC721 token = IERC721(tokenAddress);
         token.transferFrom(address(this), _beneficiary, tokenId);
