@@ -93,6 +93,9 @@ More complex release condition can be programmed but I did it that way for the s
 As soon as the trust structure is created, anyone can transfer assets to it. From then on nobody will be able to access 
 those assets until the time condition is met and the beneficiary decides to transfer them to himself/herself.
 
+Creating a _Trustee_ on the blockchain cost less than a euro and there is no maintenance fee. When the assets held _in trust_
+need to be transferred to the beneficiary, some transaction fees need to be paid but are also extremelly low. 
+
 I created an instance of the _Trustee_ contract with myself as the benificiary. The time condition is set to match the day
 of my 50th birthday. If you want to give me some assets (ERC-20, ERC-721 or Ether), just transfer them to the following 
 address: 0x000000
