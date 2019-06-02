@@ -1,4 +1,4 @@
-# Asset tokenization: first step towards the Internet of value
+# Asset Tokenization: the first step towards the Internet of Value
 
 ## Introduction:
 
