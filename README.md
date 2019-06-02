@@ -1,4 +1,4 @@
-# Asset tokenization? So what?
+# Asset tokenization: first step towards the Internet of value
 
 ## Introduction:
 
@@ -117,7 +117,7 @@ as much as possible.
 
 I'm expecting a lot of synergies between the _Internet of Things_ (aka. connected objects) and the _Internet of Value_. 
 Connected objects are more and more common and it is already possible for them to receive assets (think about a simple
-good dispenser) or to make payment but it is technically complex and, thus, expensive. It requires roughly 15 euro of 
+goods dispenser) or to make payment but it is technically complex and, thus, expensive. It requires roughly 15 euro of 
 hardware and an internet connection for an object to be able to received payment via the blockchain. 
 
 Companies like [DriveNow](https://www.drive-now.com/) or [Poppy](https://poppy.be/) can expect some competition to 
