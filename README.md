@@ -2,7 +2,7 @@
 
 ## Introduction:
 
-In this article, I intend to give a concrete example of the benefits of the process of _Asset Tokenization_ beyond the basic
+In this article, I intend to give a concrete example of the benefits of _Asset Tokenization_ process beyond the basic
 inherent advantages related to the use of a blockchain based technology to issue, transfer, exchange and redeem digital assets
 in a secure, scalable, fast and borderless way.
 
