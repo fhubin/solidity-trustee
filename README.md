@@ -26,7 +26,7 @@ A _Digital Asset_ is a digital representation of a unit of value be it located p
 representations of real-world assets. A _share_ of a _Digital Asset_ is commonly refered as a _Token_. 
 
 The most famous pure digital assets are the [CryptoKitties](https://www.cryptokitties.co/) which are _(...) breedable, 
-collectible, and oh-so-adorable creatures (...)_. In this case, the asset is a form of artifial DNA representing a unique
+collectible, and oh-so-adorable creatures (...)_. In this case, the asset is a form of artificial DNA representing a unique
 _digital creature_. The ownership of those _creatures_ is insured by the blockchain and they can therefore be held, exchanged, 
 locked as any digital assets can. The _CryptoKitties_ were implemented following the Ethereum standard [ERC-721](http://www.erc721.org) 
 which governs how non-fungible tokens should be implemented in a standard way on the Ethereum blockchain.
@@ -46,7 +46,7 @@ the company for which they were emitted without the need to have a classic share
 
 ## What is _Asset Tokenization_?
 
-_Asset Tokenization_ is the process of digitazing real-world assets on the blockchain. Dealing with _tokenized_ assets
+_Asset Tokenization_ is the process of digitalizing real-world assets on the blockchain. Dealing with _tokenized_ assets
 instead of their traditional counterpart brings a lot of advantages to the entities working with them. For example, 
 the traditional financial system is in many ways less fast, fluid and flexible than the internet. By tokenizing asset, 
 businesses gain the capacities for secure, scalable and fast asset transfer across borders, fractionalized ownership 
@@ -55,7 +55,7 @@ the world of the _Internet of Value_.
 
 When assets are tokenized in a way that follows standards (such as ERC-20 or ERC-721 on the Ethereum blockchain), they
 can automatically participate in more complex relations governed by what is known as _Smart Contracts_. That opens
-up a complete new range of services that can be renderred on the blockchain in a trust-less fashion (without any
+up a complete new range of services that can be rendered on the blockchain in a trust-less fashion (without any
 intermediaries).
 
 ## A practical use-case:
@@ -79,17 +79,17 @@ fiduciary companies are usually providing these services.
 
 ## The 'Trustee' smart contract:
 
-I developped a very simple smart contract that mimicks the basic behavior of a _Trustee_. The source code can be
+I developed a very simple smart contract that mimics the basic behavior of a _Trustee_. The source code can be
 found [here](https://github.com/fhubin/solidity-trustee). 
 
-In a nutshell, anyone owning an identity on the Etherum blockchain can create an instance of the _Trustee_ contract using
+In a nutshell, anyone owning an identity on the Ethereum blockchain can create an instance of the _Trustee_ contract using
 the appropriate tools (I will at some point provide a more user friendly interface). You can easily create an identity by 
-installing an Etherum compatible wallet on your smart phone or computer. The person creating the contract will be considered 
+installing an Ethereum compatible wallet on your smart phone or computer. The person creating the contract will be considered 
 as the trustor/settlor of the trust.
 
 At the creation process, the settlor has to specify who the beneficiary is by setting his/her/its identity in the contract. 
 When the instance of the _Trustee_ smart contract is created, it gets an identity on the blockchain too. The condition at 
-which the assets held _in trust_ by the _Trustee_ can be transfered to the _beneficiary_ is a simple time-based one. In 
+which the assets held _in trust_ by the _Trustee_ can be transferred to the _beneficiary_ is a simple time-based one. In 
 other words, at the contract creation, the settlor has also to specify how long the assets are going to be locked _in trust_. 
 More complex release conditions can be programmed but I did it that way for the sake of simplicity.
 
@@ -97,9 +97,9 @@ As soon as the trust structure is created, anyone can transfer assets to it. Fro
 those assets until the time condition is met and the beneficiary decides to transfer them to himself/herself.
 
 Creating a _Trustee_ on the blockchain cost less than a couple of euro cents and there is no maintenance fee. When the assets 
-held _in trust_ need to be transferred to the beneficiary, some transaction fees need to be paid but are also extremelly low. 
+held _in trust_ need to be transferred to the beneficiary, some transaction fees need to be paid but are also extremely low. 
 
-I created an instance of the _Trustee_ contract with myself as the benificiary. The time condition is set to match the day
+I created an instance of the _Trustee_ contract with myself as the beneficiary. The time condition is set to match the day
 of my 50th birthday. If you want to give me some assets (ERC-20, ERC-721 or Ether), just transfer them to the following 
 address: 0x000000
 
@@ -111,11 +111,11 @@ using one or more trusted parties (bank, notaries, ...) to be moved to a blockch
 For example, the [Dubai Land Department](https://www.itu.int/net4/wsis/archive/stocktaking/Project/Details?projectId=1515496900)
 is working on the creation of a land register on the blockchain. The goal is to allow end-to-end real-estate deals to
 be made directly on the blockchain. Using a state approved smart contract that would behave like an escrow would
-be suficient to exchange money against real-estate in a safe way. Dubai relying a lot on real-estate to insure his
+be sufficient to exchange money against real-estate in a safe way. Dubai relying a lot on real-estate to insure his
 transition to a non-oil based economy
 
 I'm expecting a lot of synergies between the _Internet of Things_ (aka. connected objects) and the _Internet of Value_. 
-Connected objects are more and more common and it is alreday possible for them to receive assets (think about a simple
+Connected objects are more and more common and it is already possible for them to receive assets (think about a simple
 good dispenser) or to make payment but it is technically complex and, thus, expensive. It requires roughly 15 euro of 
 hardware and an internet connection for an object to be able to received payment via the blockchain. 
 
@@ -137,6 +137,6 @@ challenges ahead and created the [EU Blockchain Forum](https://www.eublockchainf
 initiatives in that domain while making sure innovation is not mitigated by red-tape. 
 
 We are at the infancy of the _Internet of Value_ revolution. It is going to be an exciting journey and blockchain technologies
-are going to play a criticial role in that revolution. 
+are going to play a critical role in that revolution. 
 
 Have a nice ride!
