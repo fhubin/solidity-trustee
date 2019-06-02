@@ -112,7 +112,8 @@ For example, the [Dubai Land Department](https://www.itu.int/net4/wsis/archive/s
 is working on the creation of a land register on the blockchain. The goal is to allow end-to-end real-estate deals to
 be made directly on the blockchain. Using a state approved smart contract that would behave like an escrow would
 be sufficient to exchange money against real-estate in a safe way. Dubai relying a lot on real-estate to insure his
-transition to a non-oil based economy
+transition to a non-oil based economy, the country is betting on the blockchain to fluidify its real-estate market
+as much as possible.
 
 I'm expecting a lot of synergies between the _Internet of Things_ (aka. connected objects) and the _Internet of Value_. 
 Connected objects are more and more common and it is already possible for them to receive assets (think about a simple
