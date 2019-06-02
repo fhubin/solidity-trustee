@@ -135,7 +135,7 @@ and services base on this technology.
 I believe that blockchain technologies in general will achieve greater results in the future if proper public/private
 sector synergies are created. The [European Commission](https://ec.europa.eu/commission/index_en) clearly understands the 
 challenges ahead and created the [EU Blockchain Forum](https://www.eublockchainforum.eu) in order to structure all the 
-initiatives in that domain while making sure innovation is not mitigated by red-tape. 
+initiatives in that domain while making sure innovation is not mitigated by red tape. 
 
 We are at the infancy of the _Internet of Value_ revolution. It is going to be an exciting journey and blockchain technologies
 are going to play a critical role in that revolution. 
