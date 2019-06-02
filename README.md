@@ -77,7 +77,7 @@ Creating a _Trust_ might be a complex and expensive process. The _Trustee_ requi
 might even ask for a transaction fee to transfer assets to the beneficiary when applicable. Specialised lawyers and 
 fiduciary companies are usually providing these services.
 
-## The 'Trustee' smart contract:
+## The _Trustee_ smart contract:
 
 I developed a very simple smart contract that mimics the basic behavior of a _Trustee_. The source code can be
 found [here](https://github.com/fhubin/solidity-trustee). 
@@ -101,7 +101,7 @@ held _in trust_ need to be transferred to the beneficiary, some transaction fees
 
 I created an instance of the _Trustee_ contract with myself as the beneficiary. The time condition is set to match the day
 of my 50th birthday. If you want to give me some assets (ERC-20, ERC-721 or Ether), just transfer them to the following 
-address: 0x000000
+address: 0x9af43b4bc6605DF6Cd3d1e20D5205Dd59dFDDd3e
 
 ## Other applications:
 
